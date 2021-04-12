@@ -43,11 +43,11 @@
             <div class="defilee__outer">
                 <section id="defilee" class="defilee__ctnr">
                     <h1>Catkin Software Solution Farm
-                        <hr> Work Hard Get Success...</h1>
+                        <hr> Work Hard To Get Success...</h1>
 
 
                     <div class="defilee__div defilee__div ">
-                        <svg class="item__svg" width="400px" height="400px" viewBox="0 0 600 600" preserveAspectRatio="xMidYMid slice">
+                        <svg class="item__svg" width="800px" height="800px" viewBox="0 0 600 600" preserveAspectRatio="xMidYMid slice">
                 <g clip-path="url(#path-1)">
                     <!-- <image class="item__img" xlink:href="https://i.picsum.photos/id/0/5616/3744.jpg?hmac=3GAAioiQziMGEtLbfrdbcoenXoWAW-zlyEAMkfEdBzQ "x="0" y="0" width="100%" height="100%" /> -->
                 </g>
@@ -217,10 +217,112 @@
             <div class="flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
-                        <img src="{{ asset('assets/images/tutul1 (1)1.jpg') }}" alt="Avatar" style="width:300px;height:300px;">
+                        <img src="{{ asset('assets/images/Masidul.png') }}" alt="Avatar" style="width:300px;height:300px;">
                     </div>
                     <div class="flip-card-back">
-                        <h2>Omar Faruk Tutul</h2>
+                        <h2>Md. Masidul Hasan</h2>
+                        <p>Co-Founder, CEO & Head of Android App Developer</p>
+                        <div class="flip__box ">
+                            <a href="# " class="flip__social ">
+                                <i class='bx bxl-linkedin-square'></i>
+                            </a>
+
+                            <a href="# " class="flip__social ">
+                                <i class='bx bxl-facebook-circle'></i>
+                            </a>
+
+                            <a href="# " class="flip__social ">
+                                <i class='bx bxl-twitter'></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="{{ asset('assets/images/Forhad.jpeg') }}" alt="Avatar" style="width:300px;height:300px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <h2>Forhad</h2>
+                        <p>Co-Founder & Head of Front-End Developer</p>
+                        <div class="flip__box ">
+                            <a href="# " class="flip__social ">
+                                <i class='bx bxl-linkedin-square'></i>
+                            </a>
+
+                            <a href="# " class="flip__social ">
+                                <i class='bx bxl-facebook-circle'></i>
+                            </a>
+
+                            <a href="# " class="flip__social ">
+                                <i class='bx bxl-twitter'></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="{{ asset('assets/images/commonImage.png') }}" alt="Avatar" style="width:300px;height:300px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <h2>Anika Akram</h2>
+                        <p>Co-Founder & Head of Front-End Developer</p>
+                        <div class="flip__box ">
+                            <a href="# " class="flip__social ">
+                                <i class='bx bxl-linkedin-square'></i>
+                            </a>
+
+                            <a href="# " class="flip__social ">
+                                <i class='bx bxl-facebook-circle'></i>
+                            </a>
+
+                            <a href="# " class="flip__social ">
+                                <i class='bx bxl-twitter'></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="{{ asset('assets/images/Rumman.jpeg') }}" alt="Avatar" style="width:300px;height:300px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <h2>Rumman Ahmed</h2>
+                        <p>Co-Founder & Head of Front-End Developer</p>
+                        <div class="flip__box ">
+                            <a href="# " class="flip__social ">
+                                <i class='bx bxl-linkedin-square'></i>
+                            </a>
+
+                            <a href="# " class="flip__social ">
+                                <i class='bx bxl-facebook-circle'></i>
+                            </a>
+
+                            <a href="# " class="flip__social ">
+                                <i class='bx bxl-twitter'></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="{{ asset('assets/images/Rubina.jpeg') }}" alt="Avatar" style="width:300px;height:300px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <h2>Rubina</h2>
                         <p>Co-Founder & Head of Front-End Developer</p>
                         <div class="flip__box ">
                             <a href="# " class="flip__social ">
@@ -240,6 +342,7 @@
                 </div>
             </div>
         </div>
+        
     </flip-card__section>
 
 

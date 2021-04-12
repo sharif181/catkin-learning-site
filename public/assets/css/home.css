@@ -10,10 +10,10 @@
 /*======Variable Css======*/
 
  :root {
-    --header-height: 3rem;
+    --header-height: 1rem;
     /*======Colors======*/
-    --dark_color: #070D1F;
-    --dark_color-alt: #282B3A;
+    --dark_color: #000000;
+    --dark_color-alt: #aa33aa;
     --white_color: #E6E7E9;
     /*======Fuent y tipografia======*/
     --body-font: 'Balsamiq Sans', cursive;
@@ -43,7 +43,7 @@
     --h2-font-size: 1.25rem;
     --normal-font-size: .938rem;
     --small-font-size: .75rem;
-    --header-height: 3rem;
+    --header-height: 2rem;
     --font-semi: 600;
     --font-bold: 700;
     --white: #ffffff;
