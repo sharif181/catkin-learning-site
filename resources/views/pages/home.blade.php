@@ -217,7 +217,7 @@
             <div class="flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
-                        <img src="{{ asset('assets/images/Masidul.png') }}" alt="Avatar" style="width:300px;height:300px;">
+                        <img src="{{ asset('assets/images/Masidul.jpg') }}" alt="Avatar" style="width:300px;height:300px;">
                     </div>
                     <div class="flip-card-back">
                         <h2>Md. Masidul Hasan</h2>
