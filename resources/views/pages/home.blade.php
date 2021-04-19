@@ -150,6 +150,7 @@
     <!--============================================flip-card__section================================-->
 
     {{-- add info from database --}}
+
     <flip-card__section>
         <div class="flip">
             <span><h1>Management Team</h1></span>
@@ -311,8 +312,6 @@
         </div>
         
     </flip-card__section>
-
-
 
     {{-- ceo message video from online --}}
     <!--============================================ceo-message__section================================-->
@@ -501,53 +500,6 @@
         </div>
     </course__section>
 
-
-
-
-    <!--============================================blog__section================================-->
-    <blog__section>
-        <div class="blog__section">
-            <h1><br>Recent Blog Posts</h1>
-            <div class="Card1">
-                <div class="photo " id="photo__blog1"></div>
-                <ul class="details">
-                    <h4>Digital Corporate Banking in South Asia</h4>
-                    <li>------------------</li>
-                    <li>Fahmiza Ramina Hossain</li>
-                    <li>---------------</li>
-                    <li>December 14, 2020</li>
-                </ul>
-                <div class="description">
-                    <div class="line">
-                        <h1 class="product_name">Digital Corporate Banking in South Asia</h1>
-                    </div>
-                    <p class="summary">With online retail banking on the rise in South Asia, now digital corporate banking applications is bringing new innovations to the business sector of the region.</p>
-                    <a href="//s.codepen.io/ImagineAlex">Read More</a>
-                </div>
-            </div>
-        </div>
-    </blog__section>
-
-
-    <!--============================================Client & Patners section================================-->
-    <clint__section>
-        <div class="client">
-            <h1><br>Clients & Partners</h1>
-            <div class="client__img">
-                <div class="client__img1">
-                    <img class="img__parter" src="{{ asset('assets/images/partner1.jpg') }}" alt="">
-                    <img class="img__parter" src="{{ asset('assets/images/partner2.jpg') }}" alt="">
-                    <img class="img__parter" src="{{ asset('assets/images/partner3.jpg') }}" alt="">
-                </div>
-                {{-- <div class="client__img2">
-
-
-                </div> --}}
-            </div>
-        </div>
-    </clint__section>
-
-
     <!--============================================Subscribe section================================-->
     <subscribe__section>
         <div class="subscribe">
@@ -560,16 +512,13 @@
                 <svg class="line2" viewBox="0 0 50 52">
                   <path style="fill:none;stroke:#000000;stroke-width:2" d="m 38.391765,17.110953 -16.66751,16.667516 -7.81073,-7.201053 c -2.56639,-2.366065 -3.80148,-3.574166 -6.56097,-5.722314 l -4.6426304,-1.736535"/>
                 </svg>
-                <form class="form" action="">
-                    <input class="input" type="email">
+                <form class="form" action="" style="background-color: #aaaaaa;">
+                    <input class="input" type="email" style="color: #333333; orientation: landscape;">
                 </form>
             </div>
 
         </div>
     </subscribe__section>
-
-
-
 
     @endsection
 
