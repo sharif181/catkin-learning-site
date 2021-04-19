@@ -165,7 +165,7 @@
             </div>
 
             <div class="history__two">
-                <img class="img-thumbnail" src=" {{ asset('assets/images/catkin3.jpg') }}" alt="#catkin ">
+                <img class="img-thumbnail" src=" {{ asset('assets/images/catkin3.png') }}" alt="#catkin ">
             </div>
         </div>
     </cssf-story__section>
