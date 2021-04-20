@@ -56,3 +56,4 @@ Route::post('/admin/course/delete/{id}',[CourseController::class,'delete']);
 
 Route::get('/courses/{type}',[CourseController::class,'index'])->middleware('auth');
 Route::get('/coueselist/{id}',[CourseController::class,'courselist'])->middleware('auth');
+
