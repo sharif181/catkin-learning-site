@@ -12,6 +12,8 @@
     <!-- Main css -->
     <link rel="stylesheet" href="{{ asset('assets/css/styler.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/blog.css') }} ">
+
+
 @endsection
 
 @section('content')
