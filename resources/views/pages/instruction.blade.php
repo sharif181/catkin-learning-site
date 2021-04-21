@@ -10,7 +10,7 @@
 
 
     <!--        Favicon         -->
-    <link rel="shortcut icon" href="images/catkin1.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/catkin3.png" type="image/x-icon">
 
     <!--      BOX ICON       -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
