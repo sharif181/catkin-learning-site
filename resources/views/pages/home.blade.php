@@ -139,7 +139,7 @@
                 </div>
             </div>
 
-            
+
         </div>
         <div class="container">
             <div class="history__two">
@@ -154,8 +154,6 @@
     <flip-card__section>
         <div class="flip">
             <span><h1>Management Team</h1></span>
-
-
             <div class="flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
@@ -237,7 +235,7 @@
             <div class="flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
-                        <img src="{{ asset('assets/images/commonImage.png') }}" alt="Avatar" style="width:300px;height:300px;">
+                        <img src="{{ asset('assets/images/Anika Alam.jpg') }}" alt="Avatar" style="width:300px;height:300px;">
                     </div>
                     <div class="flip-card-back">
                         <h2>Anika Akram</h2>
@@ -310,7 +308,7 @@
                 </div>
             </div>
         </div>
-        
+
     </flip-card__section>
 
     {{-- ceo message video from online --}}
