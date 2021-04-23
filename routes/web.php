@@ -35,23 +35,23 @@ Route::get('/admin/dashboard',[adminController::class,'index'])->name('dashboard
 
 Route::get('/admin/addnewcourse',function(){
     return view('admin.addnewcourse');
-})->name('addcourse');
+})->name('addcourse')->middleware('CheckAdmin');
 
-Route::get('/admin/addresourse',[adminController::class,'resoursePage'])->name('resourse');
-Route::post('/admin/uploadresourse',[FileUploadController::class,'resourseStore']);
+Route::get('/admin/addresourse',[adminController::class,'resoursePage'])->name('resourse')->middleware('CheckAdmin');
+Route::post('/admin/uploadresourse',[FileUploadController::class,'resourseStore'])->middleware('CheckAdmin');
 
-Route::post('/admin/uploadcourse',[FileUploadController::class,'store'])->name('upload');
+Route::post('/admin/uploadcourse',[FileUploadController::class,'store'])->name('upload')->middleware('CheckAdmin');
 
 
-Route::get('/admin/addblogs',[blogController::class,'addblog'])->name('addblog');
-Route::post('/admin/addblogs',[blogController::class,'store']);
-Route::get('/admin/blogDetails',[blogController::class,'detail'])->name('detail');
-Route::post('/admin/blog/delete/{id}',[blogController::class,'blogDelete']);
-Route::post('/admin/blog/edit/{id}',[blogController::class,'blogEdit']);
-Route::post('/admin/edit/{id}',[blogController::class,'edit']);
+Route::get('/admin/addblogs',[blogController::class,'addblog'])->name('addblog')->middleware('CheckAdmin');
+Route::post('/admin/addblogs',[blogController::class,'store'])->middleware('CheckAdmin');
+Route::get('/admin/blogDetails',[blogController::class,'detail'])->name('detail')->middleware('CheckAdmin');
+Route::post('/admin/blog/delete/{id}',[blogController::class,'blogDelete'])->middleware('CheckAdmin');
+Route::post('/admin/blog/edit/{id}',[blogController::class,'blogEdit'])->middleware('CheckAdmin');
+Route::post('/admin/edit/{id}',[blogController::class,'edit'])->middleware('CheckAdmin');
 
-Route::get('/admin/allcourses',[CourseController::class,'deleteCourse'])->name('deleteCourse');
-Route::post('/admin/course/delete/{id}',[CourseController::class,'delete']);
+Route::get('/admin/allcourses',[CourseController::class,'deleteCourse'])->name('deleteCourse')->middleware('CheckAdmin');
+Route::post('/admin/course/delete/{id}',[CourseController::class,'delete'])->middleware('CheckAdmin');
 
 
 Route::get('/courses/{type}',[CourseController::class,'index'])->middleware('auth');

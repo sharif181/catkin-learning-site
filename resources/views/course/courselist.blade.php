@@ -21,9 +21,9 @@
                   Your browser does not support the video tag.
                 </video>
                 <div class="card-body">
-                  <h5 class="card-title">Course title: {{ $course->title }}</h5>
-                  <p class="card-text">{{ $course->description }}</p>
-                  <p class="card-text"><small class="text-muted">Instractor: {{ $course->instractor }}</small></p>
+                  <h5 class="card-title">Course title: {{ Str::ucfirst($course->title) }}</h5>
+                  <p class="card-text">{{ Str::ucfirst($course->description) }}</p>
+                  <p class="card-text"><small class="text-muted">Instractor: {{ Str::ucfirst($course->instractor) }}</small></p>
                 </div>
             </div>
 
@@ -37,9 +37,9 @@
                         Your browser does not support the video tag.
                         </video>
                         <div class="card-body">
-                        <h5 class="card-title">{{ $item->video_title }}</h5>
-                        <p class="card-text">{{ $item->description }}</p>
-                        <p class="card-text"><small class="text-muted">Instractor: {{ $course->instractor }}</small></p>
+                        <h5 class="card-title">{{ Str::ucfirst($item->video_title) }}</h5>
+                        <p class="card-text">{{ Str::ucfirst($item->description) }}</p>
+                        <p class="card-text"><small class="text-muted">Instractor: {{ Str::ucfirst($course->instractor) }}</small></p>
                         </div>
                     </div>
                 @endforeach
