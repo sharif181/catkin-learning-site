@@ -85,10 +85,10 @@
                             <select name="type" class="form-select mb-0" id="gender" aria-label="Gender select example">
                                 <option selected value="android">Android</option>
                                 <option value="web">Web</option>
-                                <option value="other">Programming</option>
-                                <option value="web">Java</option>
-                                <option value="other">Python</option>
-                                <option value="web">Others</option>
+                                <option value="programming">Programming</option>
+                                <option value="java">Java</option>
+                                <option value="python">Python</option>
+                                <option value="other">Others</option>
 
                             </select>
                         </div>

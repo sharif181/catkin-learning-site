@@ -11,10 +11,10 @@
     @section('content')
         <div class="container bg-light mt-5 mb-5">
             <div class="card">
-                <h5 class="card-header">{{$blog->title}}</h5>
+                <h5 class="card-header">{{ Str::ucfirst($blog->title) }}</h5>
                 <div class="card-body">
-                  <h5 class="card-title"> {{$blog->author}} </h5>
-                  <p class="card-text">{{ $blog->content }}</p>
+                  <h5 class="card-title"> {{ Str::ucfirst($blog->author) }} </h5>
+                  <p class="card-text">{{ Str::ucfirst($blog->content) }}</p>
                   <a href="/blogs/all" class="btn btn-primary">Go Back</a>
                 </div>
               </div>
