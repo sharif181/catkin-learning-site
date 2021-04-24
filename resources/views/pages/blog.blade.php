@@ -25,8 +25,8 @@
             <div class="col-sm-12">
             <div class="card">
                 <div class="card-body">
-                <h5 class="card-title">{{ $blog->title }}</h5>
-                <p class="card-text">{{ $blog->brief }}</p>
+                <h5 class="card-title">{{ Str::ucfirst($blog->title) }}</h5>
+                <p class="card-text">{{ Str::ucfirst($blog->brief) }}</p>
                 <a href="/blogdetail/{{$blog->id}}" class="btn btn-primary">Read More</a>
                 </div>
             </div>

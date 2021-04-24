@@ -37,10 +37,10 @@
                                     <option value="{{ $blog->type }}"> {{$blog->type}} </option>
                                     <option value="android">Android</option>
                                     <option value="web">Web</option>
-                                    <option value="other">Programming</option>
-                                    <option value="web">Java</option>
-                                    <option value="other">Python</option>
-                                    <option value="web">Others</option>
+                                    <option value="programming">Programming</option>
+                                    <option value="java">Java</option>
+                                    <option value="python">Python</option>
+                                    <option value="other">Others</option>
 
                                 </select>
                             </div>
@@ -85,10 +85,10 @@
                             <select name="type" class="form-select mb-0" id="gender" aria-label="Gender select example">
                                 <option selected value="android">Android</option>
                                 <option value="web">Web</option>
-                                <option value="other">Programming</option>
-                                <option value="web">Java</option>
-                                <option value="other">Python</option>
-                                <option value="web">Others</option>
+                                <option value="programming">Programming</option>
+                                <option value="java">Java</option>
+                                <option value="python">Python</option>
+                                <option value="other">Others</option>
 
                             </select>
                         </div>
@@ -113,7 +113,7 @@
     <footer class="footer section py-5">
         <div class="row">
             <div class="col-12 col-lg-6 mb-4 mb-lg-0">
-                <p class="mb-0 text-center text-xl-left">Copyright © 2021-<span class="current-year"></span> <a class="text-primary font-weight-normal" href="https://themesberg.com" target="_blank">CAKTKIN</a></p>
+                <p class="mb-0 text-center text-xl-left">Copyright © 2021-<span class="current-year"></span> <a class="text-primary font-weight-normal" href="https://themesberg.com" target="_blank">CATKIN</a></p>
             </div>
         </div>
     </footer>

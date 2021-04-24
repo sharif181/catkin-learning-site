@@ -61,6 +61,7 @@
                         @endguest
                         @auth
                             <li class="nav__item"><a href="{{ route('logout') }}" class="nav__link">Logout</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Hi, {{ Str::ucfirst(Auth::user()->username) }}</a></li>
                         @endauth
                     </ul>
                 </div>

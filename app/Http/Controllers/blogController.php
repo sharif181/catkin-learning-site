@@ -44,6 +44,7 @@ class blogController extends Controller
         $blog = Blog::find($id);
         return view('admin.addblogs',['blog'=>$blog]);
     }
+
     public function edit(Request $req,$id){
         $blog = Blog::find($id);
         $blog->title=$req->title;

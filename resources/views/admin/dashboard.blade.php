@@ -24,15 +24,15 @@
                 <div class="media d-flex align-items-center">
                     <img class="user-avatar md-avatar rounded-circle" alt="Image placeholder" src="{{ asset('assets/images/SharifKhan.jpg') }}">
                     <div class="media-body ml-2 text-dark align-items-center d-none d-lg-block">
-                    <span class="mb-0 font-small font-weight-bold">Sharif Khan</span>
+                    <span class="mb-0 font-small font-weight-bold">{{ Auth::user()->username }}</span>
                     </div>
                 </div>
                 </a>
                 <div class="dropdown-menu dashboard-dropdown dropdown-menu-right mt-2">
-                <a class="dropdown-item font-weight-bold" href="#"><span class="far fa-user-circle"></span>My Profile</a>
+                {{-- <a class="dropdown-item font-weight-bold" href="#"><span class="far fa-user-circle"></span>My Profile</a>
                 <a class="dropdown-item font-weight-bold" href="#"><span class="fas fa-cog"></span>Settings</a>
                 <a class="dropdown-item font-weight-bold" href="#"><span class="fas fa-envelope-open-text"></span>Messages</a>
-                <a class="dropdown-item font-weight-bold" href="#"><span class="fas fa-user-shield"></span>Support</a>
+                <a class="dropdown-item font-weight-bold" href="#"><span class="fas fa-user-shield"></span>Support</a> --}}
                 <div role="separator" class="dropdown-divider"></div>
                 <a class="dropdown-item font-weight-bold" href="{{ route('logout') }}"><span class="fas fa-sign-out-alt text-danger"></span>Logout</a>
                 </div>
@@ -134,7 +134,7 @@
     <footer class="footer section py-5">
         <div class="row">
             <div class="col-12 col-lg-6 mb-4 mb-lg-0">
-                <p class="mb-0 text-center text-xl-left">Copyright © 2021-<span class="current-year"></span> <a class="text-primary font-weight-normal" href="https://themesberg.com" target="_blank">CAKTKIN</a></p>
+                <p class="mb-0 text-center text-xl-left">Copyright © 2021-<span class="current-year"></span> <a class="text-primary font-weight-normal" href="https://themesberg.com" target="_blank">CATKIN</a></p>
             </div>
         </div>
     </footer>

@@ -9,7 +9,6 @@ use Illuminate\Http\Request;
 use File;
 class CourseController extends Controller
 {
-    //
     public function index($type){
         $courses = Course::where('type',$type)->get();
         $type = ucwords($type);
